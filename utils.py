@@ -383,7 +383,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'http://Linkbnao.com/095e0a1e6842d4b37df365fce3f82c3daaeeb58e'
+    url = f'http://Linkbnao.com/api'
     params = {'095e0a1e6842d4b37df365fce3f82c3daaeeb58e': SHORTNER_API,
               'http://Linkbnao.com': link,
               }
