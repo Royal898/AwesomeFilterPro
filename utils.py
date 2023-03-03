@@ -383,9 +383,9 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://shorturllink.in/api'
-    params = {'api': SHORTNER_API,
-              'url': link,
+    url = f'http://Linkbnao.com/095e0a1e6842d4b37df365fce3f82c3daaeeb58e'
+    params = {'095e0a1e6842d4b37df365fce3f82c3daaeeb58e': SHORTNER_API,
+              'http://Linkbnao.com': link,
               }
 
     try:
@@ -396,8 +396,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://{SHORTNER_SITE}/api?api={SHORTNER_API}&link={link}'
+                    return f'http://Linkbnao.com/api?api={095e0a1e6842d4b37df365fce3f82c3daaeeb58e}&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'{SHORTNER_SITE}/api?api={SHORTNER_API}&link={link}'
+        return f'{http://Linkbnao.com}/api?api={095e0a1e6842d4b37df365fce3f82c3daaeeb58e}&link={link}'
